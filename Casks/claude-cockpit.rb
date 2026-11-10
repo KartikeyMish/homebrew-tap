@@ -1,8 +1,8 @@
 cask "claude-cockpit" do
-  version "1.5.0"
+  version "1.6.0"
   # `make release` in claude-cockpit sets version and sha256 from the published
   # claude-cockpit-<version>.tar.gz.sha256 asset; all zeros means "not released yet".
-  sha256 "b94ab072107144f9eb581d6d00b5aa25cf0160f569eec74fe9ac36efd1c0d555"
+  sha256 "4fe727ff77a41c8948b84b8d395c92ab6a7da451665cc4086c6993fa989ee686"
 
   url "https://github.com/KartikeyMish/claude-cockpit/releases/download/v#{version}/claude-cockpit-#{version}.tar.gz"
   name "claude-cockpit"
